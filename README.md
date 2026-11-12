@@ -1,5 +1,5 @@
 ```markdown
-# Digiprojekti – RTS-peliprototyyppi
+# Digiprojekti – RTS-peliprototyyppi.
 
 Tämä on digiprojektikurssia varten tehty pienimuotoinen reaaliaikaisen strategiapelin (RTS) prototyyppi, joka on toteutettu Pythonilla ja Pygame-kirjastolla.
 
