@@ -20,7 +20,7 @@ Projektin ensimmäisessä toimivassa versiossa on toteutettu pelin perusohjausme
 ### Asennus ja käynnistys
 
 1. Asenna tarvittava Pygame-kirjasto komentorivillä:
-   ```bash
+   
    pip install pygame
 
 ```
