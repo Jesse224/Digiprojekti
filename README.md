@@ -1,15 +1,17 @@
-```markdown
-# Digiprojekti – RTS-peliprototyyppi.
+# Digiprojekti – RTS-peliprototyyppi ("Kasvatus ja puolustus")
 
-Tämä on digiprojektikurssia varten tehty pienimuotoinen reaaliaikaisen strategiapelin (RTS) prototyyppi, joka on toteutettu Pythonilla ja Pygame-kirjastolla.
+Tämä on digiprojektikurssia varten tehty pienimuotoinen reaaliaikaisen strategiapelin (RTS) prototyyppi. Pelin tavoitteena on tarjota matalan kynnyksen, nopeatempoinen ja helppokäyttöinen strategiapelikokemus ilman monimutkaisia valikoita tai raskasta mikromanagerointia.
 
-## Nykyinen versio (v0.1)
+## Nykyinen versio (v0.2)
 
-Projektin ensimmäisessä toimivassa versiossa on toteutettu pelin perusohjausmekaniikka:
+Projektin tämänhetkisessä versiossa on toteutettu seuraavat ydinmekaniikat:
 
-* **Yksikön valinta:** Pelaaja voi valita ruudulla olevan yksikön (sininen ympyrä) klikkaamalla sitä hiiren vasemmalla painikkeella. Valitun yksikön ympärille ilmestyy keltainen valintarengas.
-* **Liikkuminen:** Kun yksikkö on valittuna, pelaaja voi osoittaa sille uuden määränpään klikkaamalla mihin tahansa pelikentällä (hiiren vasemmalla tai oikealla painikkeella).
-* **Visuaalinen palaute:** Liikkuessa määränpäähän piirtyy punainen kohdemerkki, ja yksikkö liikkuu tasaisella nopeudella kohti pistettä.
+* **Yksikön valinta:** Pelaaja voi valita ruudulla olevan unitin (sininen ympyrä) klikkaamalla sitä hiiren vasemmalla painikkeella. Valitun unitin ympärille ilmestyy keltainen valintarengas.
+* **Liikkuminen ja ohjaus:** Valittua unittia voi liikuttaa klikkaamalla mihin tahansa kentälle hiiren vasemmalla tai oikealla painikkeella. Punainen kohdemerkki näyttää määränpään.
+* **Valinnan poisto (ESC):** Valitun unitin valinnan voi purkaa milloin tahansa painamalla näppäimistön **ESC**-näppäintä, jolloin unitti pysähtyy paikoilleen.
+* **Resurssien kerääminen:** Pelikentällä on vihreitä mineraaleja. Kun unitti liikkuu ja astuu mineraalin päältä, se kerää sen automaattisesti, ja kerättyjen mineraalien määrä kasvaa ruudun yläkulmassa näkyvässä laskurissa.
+
+---
 
 ## Käyttöönotto ja ajaminen
 
@@ -19,14 +21,10 @@ Projektin ensimmäisessä toimivassa versiossa on toteutettu pelin perusohjausme
 
 ### Asennus ja käynnistys
 
-1. Asenna tarvittava Pygame-kirjasto komentorivillä:
-   
+1. Asenna Pygame komentorivillä, jos sitä ei ole vielä asennettu:
+   ```bash
    pip install pygame
 
-```
+## Käynnistä peli:
 
-2. Siirry projektikansioon ja käynnistä peli:
-```bash
-python Projekti.py
-
-```
+   python Projekti.py
