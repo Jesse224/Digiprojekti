@@ -30,17 +30,3 @@ Projektin ensimmäisessä toimivassa versiossa on toteutettu pelin perusohjausme
 python Projekti.py
 
 ```
-
-
-
-```
-
-### Näin tallennat muutoksen GitHubiin:
-1. Avaa `README.md` koneellasi (esim. Muistiolla tai VS Codella), liitä teksti sinne ja tallenna tiedosto.
-2. Aja tutut kolme komentoa komentorivillä:
-   ```bash
-   git add README.md
-   git commit -m "Päivitetty README-kuvaus"
-   git push origin main
-
-```
