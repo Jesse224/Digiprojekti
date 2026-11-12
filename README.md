@@ -26,7 +26,7 @@ Projektin ensimmäisessä toimivassa versiossa on toteutettu pelin perusohjausme
 ```
 
 2. Siirry projektikansioon ja käynnistä peli:
-```bash
+```
 python Projekti.py
 
 ```
